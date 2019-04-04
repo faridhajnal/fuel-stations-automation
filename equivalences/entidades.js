@@ -28,7 +28,7 @@ module.exports = {
 	"027":"Tabasco",
 	"028":"Tamaulipas",
 	"029":"Tlaxcala",
-	"030":"Veracruz de Ignacio de la Llave",
+	"030":"Veracruz",
 	"031":"Yucatán",
 	"032":"Zacatecas"
 }
