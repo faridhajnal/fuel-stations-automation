@@ -21,7 +21,9 @@ const prepareRequest = (entidadId, municipioId) => {
     }
     return new Promise((resolve, reject) => {
         axios.get('http://api-reportediario.cre.gob.mx/api/EstacionServicio/Petroliferos', { params })
-        .then(response => resolve({response, params}))
+        .then(response => {
+            resolve({response, params})
+        })
         .catch(error => reject(error));
     });
 }
